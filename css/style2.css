@@ -1,0 +1,38 @@
+body{
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #000;
+}
+
+p{ 
+  padding-right: 25%;
+  padding-left: 25%;
+  max-width: 100%;
+  font-size: 20px;
+}
+
+nav{
+  font-size: 35px;
+  border: 15px solid lightblue;
+  border-style: outset;
+  border-radius: 40px;
+}
+
+nav2{
+  font-size: 35px;
+  border: 15px solid lightblue;
+  border-style: outset;
+  border-radius: 40px;
+}
+
+@media screen and (max-width: 800px){
+
+}

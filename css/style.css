@@ -1,0 +1,78 @@
+header{
+  font-size: 30px;
+  background-color: lightblue;
+  border: 10px solid white;
+  border-style: outset;
+  border-radius: 35px;
+}
+
+.sko-bilder{
+  width: 300px;
+  height: 225px;
+}
+
+.flip{
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  width: 300px;
+  height: 225px;
+}
+
+body{
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+}
+
+nav{
+  font-size: 20px;
+}
+
+#search{
+  font-size: 25px;
+  text-align: center;
+  border: none;
+  margin-top: 4vh;
+  padding: 16px;
+  font-family: 'Alata', sans-serif;
+}
+
+.item-a{
+  margin-top: 4vh;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #000;
+}
+
+#copyright{
+  text-align: center;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: (255, 255, 255);
+}
+
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: (255, 255, 0);
+}
