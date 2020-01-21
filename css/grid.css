@@ -54,6 +54,10 @@ footer{
   grid-row: 1/3;
 }
 
+li{
+  float: left;
+}
+
 @media screen and (max-width: 600px){
 
 header{
@@ -67,7 +71,7 @@ nav2{
 }
 
 nav{
-  grid-column: 4/7;
+  grid-column: 1/-1;
   grid-row: 2/3;
 }
 
@@ -91,7 +95,21 @@ section4{
   grid-row: 6/7;
 }
 
-footer{
+section5{
   grid-column: 1/-1;
   grid-row: 7/8;
+}
+
+section6{
+  grid-column: 1/-1;
+  grid-row: 8/9;
+}
+
+footer{
+  grid-column: 1/-1;
+  grid-row: 9/10;
+}
+
+li{
+  float: none;
 }
