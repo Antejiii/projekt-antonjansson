@@ -80,7 +80,9 @@ li a:hover {
 
 /*lite styling på dem svarta skorna*/
 .skugga {
-  box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.3)
+  box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.3);
+  height: auto;
+  width: 85%;
 }
 
 /*Styling på alla bilder på men, women och home*/

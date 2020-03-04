@@ -19,27 +19,27 @@ section {
   grid-row: 3/6;
 }
 
-section2 {
+ .a{
   grid-column: 4/7;
   grid-row: 3/6;
 }
 
-section3 {
+.b{
   grid-column: 1/4;
   grid-row: 6/9;
 }
 
-section4 {
+.c{
   grid-column: 4/7;
   grid-row: 6/9;
 }
 
-section5 {
+.d{
   grid-column: 1/4;
   grid-row: 9/12;
 }
 
-section6 {
+.e{
   grid-column: 4/7;
   grid-row: 9/12;
 }
@@ -54,21 +54,6 @@ li {
 }
 
 @media screen and (max-width: 1100px) {
-  header {
-    grid-column: 1/-1;
-    grid-row: 1/2
-  }
-
-  nav2 {
-    grid-column: 1/4;
-    grid-row: 2/3
-  }
-
-  nav {
-    grid-column: 1/-1;
-    grid-row: 2/3;
-  }
-
   section {
     grid-column: 1/-1;
     grid-row: 3/4;
