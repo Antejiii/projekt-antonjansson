@@ -59,27 +59,27 @@ li {
     grid-row: 3/4;
   }
 
-  section2 {
+  .a {
     grid-column: 1/-1;
     grid-row: 4/5;
   }
 
-  section3 {
+  .b {
     grid-column: 1/-1;
     grid-row: 5/6;
   }
 
-  section4 {
+  .c {
     grid-column: 1/-1;
     grid-row: 6/7;
   }
 
-  section5 {
+  .d {
     grid-column: 1/-1;
     grid-row: 7/8;
   }
 
-  section6 {
+  .e {
     grid-column: 1/-1;
     grid-row: 8/9;
   }

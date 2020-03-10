@@ -13,7 +13,8 @@ a:visited {
 }
 
 #skugga {
-  box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.3)
+  box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.3);
+  width: 50%;
 }
 
 p {
@@ -33,7 +34,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: white;
+  background-color: yellow;
 }
 
 li {
